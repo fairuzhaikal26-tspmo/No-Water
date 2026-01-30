@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lucida Sans';
+    opacity:80%; /*make the div boxes appear translucent or something like that*/
+    background-image:url('backendrooms.jpg');
+    background-size:cover;
+    background-repeat: no-repeat; /*Stop the background image from duplicating itself to fill the background*/
+
+}
+
+footer{
+    left:-1px;
+    opacity:100%;
+    width:100%;
+    background-color: #d3af63;
+    position:fixed;
+    bottom:0;
+}
+
+a{
+    font-family: 'Lucida Sans';
+}
+
+a:link{
+    text-decoration:none;
+    color:#8b7441;
+    transition:0.2s;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:#f5da89;
+    transition:0.2s;
+}
+
+a:visited{
+    transition:0.2s;
+}
+
+/* Anything under here is classes*/
+
+.header-sect{
+    display:flex;
+    justify-content:space-between;
+    padding: 10px 10%;
+    align-items: center;
+    text-align:center;
+    background-color: #ebd07a;
+    border-radius:10px;
+   /* 
+    border:2px;
+    border-style: solid;
+    border-color: black; */ /*Optional part ig*/
+}
+
+.main-sect{
+    padding: 40px;
+    padding-top: 15px;
+    justify-content:left;
+    background-color: rgb(245, 218, 137);
+    min-height: 200px;
+    margin:20px auto;
+    width:90%;
+   
+    min-height: 409px;
+    border-radius:10px;
+    
+}
+
+.footer-sect{
+    /* foot */
+    padding:10px;
+    text-align: center;
+    border-radius:10px;
+    background-color:#d3af63;
+}
+
+.cta-button{
+    opacity:100%;
+    background-color:#d3af63;
+    padding:7px;
+    border-radius:20px;
+    transition: 0.2s;
+}
+
+.cta-button:hover{
+    opacity:100%;
+    background-color:#8b7441;
+    padding:12px;
+    border-radius:20px;
+    transform:translateY(-3px);
+}
+
+.sidebar{
+    position: relative;
+    background-color: greenyellow;
+}
