@@ -1,1 +1,1 @@
-Basically a website we doin 
+Basically a website we doin lol
